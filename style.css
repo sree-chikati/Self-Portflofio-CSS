@@ -1,0 +1,436 @@
+
+    /* INTRODUCTION */
+             body {
+                /* Set the font-family to 'Helvetica Neue' */
+                font-family: 'Helvetica Neue';
+                /* Set the font-size to 20px */
+                font-size: 20px;
+                /* Change the line-height 1.5 */
+                line-height: 1.5;
+                /* Set color balck*/
+                color: black;
+                /* Set margin*/
+                margin: 5em;
+                /* Set the background-image*/
+                background-image: url(../images/Pastel.jpg);
+                background-size: cover;
+                background-attachment:local;
+            
+             }
+             
+             h1{
+                 /* color rgb(30, 52, 122) */
+                color:rgb(30, 52, 122);
+                /* font-weight initial */
+                font-weight: initial;
+                /* font-size 2em */
+                font-size: 2em;
+            }
+
+            h2{
+                /* color rgb(30, 52, 122) */
+                color:rgb(30, 52, 122);
+                /* font-weight lighter */
+                font-weight: lighter;
+                /* font-size 2em */
+                font-size: 2em;
+            }
+
+            h3{
+                /* color rgb(30, 52, 122) */
+                color:rgb(30, 52, 122);
+                /* font-weight initial */
+                font-weight: initial;
+                /* font-size 1.5em */
+                font-size: 1.5em;
+            }
+
+            nav > ul{
+                /* remove the bullet */
+                list-style: none;
+                /* remove the padding */
+                padding: 0;
+                /* Arrange all of the items in a row with flex */
+                display: flex;
+                /* Arrange flex-direction to rows */
+                flex-direction: row;
+                /* Arrange things in the center on the flex-end*/
+                justify-content:flex-end;
+                /* Align things on the flex-end */
+                align-items: flex-end;
+                /* Remove the bullet points */
+                list-style: none;
+                
+             }
+
+            nav a {
+                /* Remove the underline */
+                text-decoration: none;
+                /* set a background color */
+                background-color: rgb(255, 255, 255);
+                /* Set the color of the text */
+                color: black;
+                /* add some space around the boxes */
+                margin: 1px;
+                /* add some space between the content and the edge of the boxes */
+                /* The first number is the padding on the top and bottom. */
+                /* The second number is padding on the left and right. */
+                padding: 0.5rem 1rem;
+                /* Make these elements display as a block */
+                display: block;
+                /* Round the corners */
+                border-radius: 0.5rem;
+            }
+            
+            #para{
+                /* Set width and height of the box  */
+                height: 25%;
+                width: auto;
+                /* Set the color of the text */
+                color: black;
+                /* add some space around the boxes */
+                margin: 3px;
+                /* allign the text to the center */
+                text-align: center;
+                /* add some space between the content and the edge of the boxes */
+                /* The first number is the padding on the top and bottom. */
+                /* The second number is padding on the left and right. */
+                padding: 0.5rem 1rem;
+                /* Make these elements display as a flex */
+                display: flex;
+                /* Flex direction row */
+                flex-direction: row;
+                /* Arrange things in the center on the right*/
+                justify-content: right;
+                /* Align things on the center */
+                align-items:center;
+                
+            }
+            #para > p{
+                /* Set the margin to 3px  */
+                margin: 3px;
+                /* Set the padding */
+                padding: 0.5rem 2rem;
+            }
+
+            
+            #para > #image{
+                display: flex;
+                /* Flex direction row */
+                flex-direction: row;
+                /* Arrange things in the center on left*/
+                justify-content: left;
+                /* Align things on the flex-end */
+                align-items: flex-end;
+                /* Remove the bullet points */
+                list-style: none;
+                /* Remove padding */
+                padding: 0;
+            
+            }
+        
+
+    /* EXPEREINCE */
+            #experience{
+                /* Set the color of the text */
+                color: black;
+                /* add some space around the boxes */
+                margin: 1.5px;
+                /* add some space between the content and the edge of the boxes */
+                padding: 0.5rem 1rem;
+                /* Make these elements display as a block */
+                display: block;
+                /* Set the border */
+                border: 3px rgb(30, 52, 122);
+            }
+
+            #work ul{
+                /* remove the bullet */
+                list-style: none;
+                /* remove the padding */
+                padding: 0;
+                /* Arrange all of the items in a row with flex */
+                display: flex;
+                 /* Flex direction row */
+                flex-direction: row;
+                /* Arrange things in the center on the MAIN axis*/
+                justify-content: center;
+                /* Align things on the flex-end */
+                align-items: flex-end;
+            }
+
+            #work > ul li {
+            /* Add some margin */
+            margin: 3rem;
+            }
+
+            #aflex{
+                /* Set width and height of the box  */
+                width:50em;
+                margin: 1.5px;
+                /* add some space between the content and the edge of the boxes */
+                padding: 0.5rem 1rem;
+                /* Arrange things in the center on the MAIN axis*/
+                text-align: center;
+                /* Make these elements display as a block */
+                display: flex;
+                /* Flex direction row */
+                flex-direction: row;
+                /* Arrange things in the center on the MAIN axis*/
+                justify-content: center;
+                /* Align things on the flex-end */
+                align-items: flex-end;
+                /* Remove the bullet points */
+                list-style: none;
+                /* Remove padding */
+                padding: 0;
+            }
+
+            #pond{
+               /* Set width and height of the box  */
+               width:50em;
+                margin: 1.5px;
+                /* add some space between the content and the edge of the boxes */
+                padding: 0.5rem 1rem;
+                /* Arrange things in the center on the MAIN axis*/
+                text-align: center;
+                /* Make these elements display as a block */
+                display: flex;
+                /* Flex direction row */
+                flex-direction: row;
+                /* Arrange things in the center on the MAIN axis*/
+                justify-content: center;
+                /* Align things on the flex-end */
+                align-items: flex-end;
+                /* Remove the bullet points */
+                list-style: none;
+                /* Remove padding */
+                padding: 0;
+            }
+    /* EDUCATION */
+            #education{
+                /* Set the color of the text */
+                color: black;
+                /* add some space around the boxes */
+                margin: 1.5px;
+                /* add some space between the content and the edge of the boxes */
+                padding: 0.5rem 1rem;
+                /* Make these elements display as a block */
+                display: block;
+                /* Set the border */
+                border: 3px rgb(30, 52, 122);
+            }
+
+            #schools ul{
+               /* remove the bullet */
+               list-style: none;
+                /* remove the padding */
+                padding: 0;
+                /* Arrange all of the items in a row with flex */
+                display: flex;
+                 /* Flex direction row */
+                flex-direction: row;
+                /* Arrange things in the center on the MAIN axis*/
+                justify-content: center;
+                /* Align things on the flex-end */
+                align-items: flex-end;
+            }
+
+            #schools > ul li {
+            /* Add some margin */
+            margin: 3rem;
+            }
+            
+            #makeschool{
+                /* Set width and height of the box  */
+                width:50em;
+                margin: 1.5px;
+                /* add some space between the content and the edge of the boxes */
+                padding: 0.5rem 1rem;
+                /* Arrange things in the center on the MAIN axis*/
+                text-align: center;
+                /* Make these elements display as a block */
+                display: flex;
+                /* Flex direction row */
+                flex-direction: row;
+                /* Arrange things in the center on the MAIN axis*/
+                justify-content: center;
+                /* Align things on the flex-end */
+                align-items: flex-end;
+                /* Remove the bullet points */
+                list-style: none;
+                /* Remove padding */
+                padding: 0;
+            }
+
+            #amador{
+                /* Set width and height of the box  */
+                width:50em;
+                margin: 1.5px;
+                /* add some space between the content and the edge of the boxes */
+                padding: 0.5rem 1rem;
+                /* Arrange things in the center on the MAIN axis*/
+                text-align: center;
+                /* Make these elements display as a block */
+                display: flex;
+                /* Flex direction row */
+                flex-direction: row;
+                /* Arrange things in the center on the MAIN axis*/
+                justify-content: center;
+                /* Align things on the flex-end */
+                align-items: flex-end;
+                /* Remove the bullet points */
+                list-style: none;
+                /* Remove padding */
+                padding: 0;
+            }
+
+            #extra{
+                padding: 0;
+                /* Arrange all of the items in a row with flex */
+                display: flex;
+                /* Flex direction row */
+                flex-direction: row;
+                /* Arrange things in the center on the MAIN axis*/
+                justify-content: center;
+                /* Align things on the CROSS axis */
+                align-items: center;
+                /* Remove the bullet points */
+                list-style: none;
+            }
+
+            #relevant-coursework{
+                /* Set width and height of the box  */
+                width:auto;
+                height:10em;
+                margin: 1.5px;
+                /* add some space between the content and the edge of the boxes */
+                padding: 0.5rem 1rem;
+                /* Make these elements display as a block */
+                display: flex;
+                /* Flex direction row */
+                flex-direction: row;
+                /* Arrange things in the center on the MAIN axis*/
+                justify-content: center;
+                /* Align things on the CROSS axis */
+                align-items: center;
+                /* Set the border */
+                border: 1px solid rgb(30, 52, 122);
+            }
+
+            #extra-activities{
+                /* Set width and height of the box  */
+                width:auto;
+                height:10em;
+                margin: 1.5px;
+                /* add some space between the content and the edge of the boxes */
+                padding: 0.5rem 1rem;
+                /* Make these elements display as a block */
+                display: flex;
+                /* Flex direction row */
+                flex-direction: row;
+                /* Arrange things in the center on the MAIN axis*/
+                justify-content: center;
+                /* Align things on the CROSS axis */
+                align-items: center;
+                /* Set the border */
+                border: 1px solid rgb(30, 52, 122);
+            }
+
+    /* SKILLS AND AWARDS */
+            #skills-and-awards{
+                /* Set the color of the text */
+                color: black;
+                /* add some space around the boxes */
+                margin: 1.5px;
+                /* add some space between the content and the edge of the boxes */
+                padding: 0.5rem 1rem;
+                /* Make these elements display as a block */
+                display: block;
+                /* Set the border */
+                border: 3px rgb(30, 52, 122);
+            }
+
+            #s-and-a ul{
+                padding: 0;
+                /* Arrange all of the items in a row with flex */
+                display: flex;
+                /* Flex direction row */
+                flex-direction: row;
+                /* Arrange things in the center on the MAIN axis*/
+                justify-content: center;
+                /* Align things on the CROSS axis */
+                align-items: center;
+                /* Remove the bullet points */
+                list-style: none;
+            }
+
+            #s-and-a > ul li {
+            /* Add some margin */
+            margin: 3rem;
+            }
+            
+            #my-skills{
+                /* Set width and height of the box  */
+                width:50em;
+                margin: 1.5px;
+                /* add some space between the content and the edge of the boxes */
+                padding: 0.5rem 1rem;
+                /* Make these elements display as a block */
+                display: flex;
+                /* Flex direction row */
+                flex-direction: row;
+                /* Arrange things in the center on the MAIN axis*/
+                justify-content: center;
+                /* Align things on the CROSS axis */
+                align-items: center;
+                /* Align text on the CROSS axis */
+                text-align: center;
+                
+            }
+
+            #my-awards{
+                 /* Set width and height of the box  */
+                width:50em;
+                margin: 1.5px;
+                /* add some space between the content and the edge of the boxes */
+                padding: 0.5rem 1rem;
+                /* Make these elements display as a block */
+                display: flex;
+                /* Flex direction row */
+                flex-direction: row;
+                /* Arrange things in the center on the MAIN axis*/
+                justify-content: center;
+                /* Align things on the CROSS axis */
+                align-items: center;
+                /* Align text on the CROSS axis */
+                text-align: center;
+            }
+
+        /* FOOTER */
+            footer{
+                /* Set the background-color */
+                background-color:rgb(69, 57, 75);
+                /* Set the color */
+                color:rgb(217, 170, 255);
+                /* remove the padding */
+                padding: 1em;
+                margin: 0.5em;
+                /* Arrange all of the items in a row with flex */
+                display: flex;
+                /* Flex direction column */
+                flex-direction: column;
+                /* Arrange things in the center on the flex-start*/
+                justify-content:flex-start;
+                /* Align things on the flex-start */
+                align-items: flex-start;
+            }
+
+            footer a:link{
+                /* Set the link color */
+                color: rgb(217, 170, 255);
+            }
+            footer a:hover{
+                /* Set the link hover color */
+                color:hotpink;
+            }
